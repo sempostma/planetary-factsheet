@@ -26,7 +26,8 @@ const keyFmt = key => {
 }
 
 const valFmt = val => {
-    if (/^[\d, \.]+$/.test(val)) val = val.replace(/([, ]|\.$)/g, '');
+    if (val === '-') return null;
+    if (/^[-\d, \.*]+$/.test(val)) val = val.replace(/([-, *]|\.$)/g, '');
     if (!isNaN(val)) return +val;
     if (val.toLowerCase() === 'yes') return true;
     if (val.toLowerCase() === 'no') return false;
