@@ -1,5 +1,5 @@
 {
-    "Mars": {
+    "mars": {
         "mass10_24Kg": 0.64171,
         "volume10_10Km3": 16.318,
         "equatorialRadiusKm": 3396.2,
@@ -38,7 +38,7 @@
         "obliquityToOrbitDeg": 25.19,
         "inclinationOfEquatorDeg": 25.19
     },
-    "Earth": {
+    "earth": {
         "mass10_24Kg": 5.9724,
         "volume10_10Km3": 108.321,
         "equatorialRadiusKm": 6378.1,
@@ -77,7 +77,7 @@
         "obliquityToOrbitDeg": 23.44,
         "inclinationOfEquatorDeg": 23.44
     },
-    "Venus": {
+    "venus": {
         "mass10_24Kg": 4.8675,
         "volume10_10Km3": 92.843,
         "equatorialRadiusKm": 6051.8,
@@ -115,7 +115,7 @@
         "obliquityToOrbitDeg": 177.36,
         "inclinationOfEquatorDeg": 2.64
     },
-    "Mercury": {
+    "mercury": {
         "mass10_24Kg": 0.33011,
         "volume10_10Km3": 6.083,
         "equatorialRadiusKm": 2439.7,
@@ -153,7 +153,7 @@
         "obliquityToOrbitDeg": 0.034,
         "inclinationOfEquatorDeg": 0.034
     },
-    "Pluto": {
+    "pluto": {
         "mass10_24Kg": 0.01303,
         "volume10_10Km3": 0.697,
         "equatorialRadiusKm": 1187,
@@ -188,7 +188,7 @@
         "obliquityToOrbitDeg": 122.53,
         "inclinationOfEquatorDeg": 57.47
     },
-    "Jupiter": {
+    "jupiter": {
         "mass10_24Kg": 1898.19,
         "volume10_10Km3": 143128,
         "equatorialRadius1BarLevelKm": 71492,
@@ -225,7 +225,7 @@
         "obliquityToOrbitDeg": 3.13,
         "inclinationOfEquatorDeg": 3.13
     },
-    "Saturn": {
+    "saturn": {
         "mass10_24Kg": 568.34,
         "volume10_10Km3": 82713,
         "equatorialRadius1BarLevelKm": 60268,
@@ -261,7 +261,7 @@
         "lengthOfDayHrs": 10.656,
         "obliquityToOrbitDeg": 26.73
     },
-    "Uranus": {
+    "uranus": {
         "mass10_24Kg": 86.813,
         "volume10_10Km3": 6833,
         "equatorialRadius1BarLevelKm": 25559,
@@ -298,7 +298,7 @@
         "obliquityToOrbitDeg": 97.77,
         "inclinationOfEquatorDeg": 82.23
     },
-    "Neptune": {
+    "neptune": {
         "mass10_24Kg": 102.413,
         "volume10_10Km3": 6254,
         "equatorialRadius1BarLevelKm": 24764,

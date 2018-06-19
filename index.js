@@ -45,7 +45,7 @@ const fmt = set => {
 
 Promise.all(urls.map(url => table2json(url)))
     .then(docs => Object.assign({}, ...docs.map((doc, i) => ({
-        [names[i]]: Object.assign({}, doc[0][names[i]], doc[1][names[i]])
+        [names[i].toLowerCase()]: Object.assign({}, doc[0][names[i]], doc[1][names[i]])
     }))))
     .then(fmt)
     .then(obj => JSON.stringify(obj, null, +process.argv[2]))
