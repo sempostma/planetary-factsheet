@@ -17,8 +17,7 @@ const names = ['Mars', 'Earth', 'Venus', 'Mercury', 'Pluto', 'Jupiter', 'Saturn'
 
 const keyFmt = key => {
     key = key[0].toLowerCase() + key.slice(1);
-    key = key.replace(/-/g, '_');
-    key = key.replace(/[()/,.]/g, ' ');
+    key = key.replace(/[()/,\._-]/g, ' ');
     key = key.replace(/10(\d+)/g, '10_$1');
     key = key.replace(/\s+[a-z]/g, s => s.toUpperCase());
     key = key.replace(/\s/g, '');
